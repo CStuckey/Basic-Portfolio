@@ -1,0 +1,235 @@
+* {
+	/*box-sizing: border-box;*/
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+#header {
+	position: absolute;
+	background: #ffffff;
+	margin: 0 auto 0 auto;
+	/*position: fixed;*/
+	top: 0;
+	width: 100%;
+	height: 75px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#container {
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+
+#hname {
+	width: 200px;
+	height: 75px;
+	padding-left: 10px;
+	font: Helvetica;
+	background: #4aaaa5;
+	color: white;
+	float: left;
+}
+
+#navarea {
+	padding-right: 100px;
+	height: auto;
+	float: right;
+}
+
+#nav {
+	list-style-type: none;
+	padding-top: 12px;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+.navli {
+	float: left;
+	margin-left: 10px;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+#content {
+	width: 960px;
+	height: auto;
+	margin: 100px auto 100px auto;
+	font-family: Georgia;
+}
+
+#relative {
+	float: left;
+	position: relative;
+	background: #ffffff;
+	width: 650px;
+	margin: auto 20px 50px auto;
+	padding: 0px;
+	border: 1px solid #dddddd;
+}
+
+/*This information is for the contact form page*/
+#contact_form {
+	font-family: Helvetica;
+	padding: 10px 10px 10px 10px;
+}
+
+.row {
+	padding: 5px 0 5px 0;
+}
+
+#name {
+	/*padding: 5px 0 5px 0;*/
+	margin-top: 5px;
+}
+
+#email {
+	margin-top: 5px;
+}
+
+#message {
+	margin-top: 5px;
+}
+
+#submit_button {
+	background-color: #4aaaa5;
+}
+
+#aboutme {
+	padding-left: 10px;
+	color: #4aaaa5;
+	font: Helvetica;
+}
+
+hr {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#image {
+	padding: 10px 10px 10px 1px;
+	padding-right: 10px;
+	text-align: left;
+	float: left;
+	display: block;
+	margin: 0 0 10px 10px;
+}
+
+/*This css code below is for Portfolio page*/
+#pimage1 {
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 1px;
+	padding-right: 10px;
+	text-align: left;
+	float: left;
+	display: block;
+}
+
+#pimage2 {
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 1px;
+	padding-right: 10px;
+	text-align: left;
+	float: left;
+	display: block;
+}
+
+#pimage3 {
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 1px;
+	padding-right: 10px;
+	text-align: left;
+	float: left;
+	/*display: block;*/
+}
+
+.banner1 {
+	position: absolute;
+	margin-top: 125px;
+	width: 249px;
+	height: 56px;
+	padding-left: 1px;
+	text-align: center;
+	font-family: Helvetica;
+	background: #4aaaa5;
+	color: white;
+	float: left;
+	z-index: 1;
+}
+
+
+p {
+	font-family: Helvetica;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.relativecon {
+	position: relative;
+	float: left;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 5px; 
+}
+
+#heading2 {
+	text-align: center;
+	color: #4aaaa5;
+}
+
+#icons {
+	background-color: #ffffff;
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	line-height: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#sicons {
+	list-style-type: none;
+	padding-top: 0px;
+	text-decoration: none;
+}
+
+.social {
+	float: left;
+	margin-right: 15px;
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.soicons {
+	text-decoration: none;
+}
+
+#border {
+	clear: both;
+	border-top: 10px solid #4aaaa5;
+	padding: 0px;
+	margin-top: 100px;
+}
+
+
+#footer {
+	clear: both;
+	font: Helvetica;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	background-color: #666666;
+}
+
